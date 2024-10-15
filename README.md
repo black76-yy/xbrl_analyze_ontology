@@ -31,7 +31,7 @@ pandas 2.2.2
 良かったらご一読していただけると嬉しいです。
 
 ### 対象ファイル
-Chapter_4\download_xbrl.py
+xbrl_book\Chapter_4\download_xbrl.py
 
 ## (5)財務諸表から営業利益を自動で取得しよう
 5章『財務諸表から売上高を自動抽出しよう』では、ダウンロードしたXBRLファイルを使用し、その中から連結財務諸表の営業利益（IFRS）を自動で抽出することについてまとめた内容となっております。
@@ -40,23 +40,23 @@ Chapter_4\download_xbrl.py
 また、コラムではファイルのパスをいちいち指定するのではなく、パスを正規表現を用いて記述することによりディレクトリ内にあるXBRLファイルすべてに処理をかけることについて紹介しています。
 
 ### 対象ファイル
-1社分を抽出する：Chapter_5\get_tb_one.py
-10社分を抽出する：Chapter_5\get_tb_ten.py
+1社分を抽出する：xbrl_book\Chapter_5\get_tb_one.py
+10社分を抽出する：xbrl_book\Chapter_5\get_tb_ten.py
 
 ## (6)有報からテキストデータを自動で取得しよう
 6章『有報からテキストデータを自動抽出しよう』では、テキストデータである「事業等のリスク」という項目を抽出することについてまとめた内容になっております。
 
 ### 対象ファイル
-Chapter_6\get_text.py
+xbrl_book\Chapter_6\get_text.py
 
 ## (7)監査報告書からKAMを自動で取得しよう
 7章『監査報告書からKAMを自動で取得しよう』では、監査報告書に記述されているKAMという項目を抽出することについてまとめた内容になっております。
 
 ### 対象ファイル
-Chapter_7\get_kam.py
+xbrl_book\Chapter_7\get_kam.py
 
 ## (8)CSVファイルで出力しよう
 8章『CSVファイルで出力しよう』では、今まで抽出してきた内容を1回で取得しCSVファイルにアウトプットすることについてまとめた内容になっております。
 
 ### 対象ファイル
-Chapter_8\get_csv.py
+xbrl_book\Chapter_8\get_csv.py
