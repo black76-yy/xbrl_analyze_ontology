@@ -58,14 +58,14 @@ def download_xbrl_in_zip(securities_report_doc_list, number_of_lists):
         filename = os.path.join(save_dir, f"{doc_id}.zip")
         res = requests.get(url, params=params, stream=True)
         
-    try :
-        if res.status_code == 200:
-            with open(filename, 'wb') as file:
-                for chunk in res.iter_content(chunk_size=1024):
-                    file.write(chunk)
-            print(f"Downloaded and Saved: {filename}")
-    except Exception as e:
-        print(f"Failed to download file {doc_id}, status code: {e}")
+        try :
+            if res.status_code == 200:
+                with open(filename, 'wb') as file:
+                    for chunk in res.iter_content(chunk_size=1024):
+                        file.write(chunk)
+                print(f"Downloaded and Saved: {filename}")
+        except Exception as e:
+            print(f"Failed to download file {doc_id}, status code: {e}")
         
 def main():
     # ▼集める期間
